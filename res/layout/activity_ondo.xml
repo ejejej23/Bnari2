@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ptemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 수평 스크롤바 ! weight주기 -->
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="0.39" >
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/week0"
+                    android:text="today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    />
+                <TextView
+                    android:id="@+id/week1"
+                    android:text="today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    />
+                <TextView
+                    android:id="@+id/week2"
+                    android:text="today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/a" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/b" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/c" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/d" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- 수직 스크롤바 ! weight주기 -->
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.39" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dayTime0"
+                    android:text="today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    />
+                <TextView
+                    android:id="@+id/dayTime1"
+                    android:text="today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    />
+                <TextView
+                    android:id="@+id/dayTime2"
+                    android:text="today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    />
+                <TextView
+                    android:id="@+id/dayTime3"
+                    android:text="today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    />
+                <TextView
+                    android:id="@+id/dayTime4"
+                    android:text="today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    />
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/a" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/b" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/c" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/d" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
