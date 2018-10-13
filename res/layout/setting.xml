@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sky7"
+    android:orientation="vertical" >
+
+<Button
+    android:id="@+id/region"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="region"
+    android:text="지역설정 "/>
+
+<Button
+    android:id="@+id/alarm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="alarm"
+    android:text="알람설정 "/>
+
+<Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="back"
+    android:text="뒤로가기"/>
+
+</LinearLayout>

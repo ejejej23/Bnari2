@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/sky7"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/getBtn"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="weather"
+        android:text="날씨보기"/>
+    
+        <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/back"
+        android:clickable="true"
+        android:onClick="back"
+        android:text="저장"/>
+        
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="" />
+</ScrollView>
+</LinearLayout>

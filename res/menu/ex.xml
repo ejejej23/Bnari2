@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bnari.Ex" >
+    
+    
+      <item
+        android:id="@+id/region"
+        android:orderInCategory="100"
+        android:title="지역설정" />
+    
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="알람설정"/>
+    
+</menu>

@@ -1,66 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.bnariv2.MainActivity" >
-
-    <!-- 지역 설정 -->
+    android:background="@drawable/sky7"
+    android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/region"
+        android:id="@+id/dong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="지역임"
-        android:textSize="20dp" />
-
-    <!-- 옷 이미지 -->
+        android:layout_marginTop="30dp" />
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/ott"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="15dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/one"
-            android:padding="100dp"
-            android:textColor="#ffffff" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
 
         <ImageView
-            android:id="@+id/otimg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/shirt1" >
+            android:id="@+id/image1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:src="@drawable/shirt3" />
 
-        </ImageView>
+        <TextView
+            android:id="@+id/ondo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="60dp"
+            android:padding="30dp"
+            android:textColor="#ffffff"
+            android:textSize="50dp" />
     </RelativeLayout>
 
-    <!-- 현재 온도 -->
-
     <TextView
-        android:id="@+id/ondo"
+        android:id="@+id/clo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="온도데스"
-        android:textSize="60dp" />
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
-    <!-- 알람 설정 -->
-
-    <ImageView
-        android:id="@+id/alarm"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+    <TextView
+        android:id="@+id/clo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@drawable/alram" />
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/clo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/clo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/clo5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 </LinearLayout>
